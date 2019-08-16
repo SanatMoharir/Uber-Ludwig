@@ -1,0 +1,9 @@
+Training:
+
+ludwig train --data_csv IMDB.csv --model_definition_file features.yml
+
+
+Prediction:
+
+
+ludwig predict --data_csv predict.csv --model_path results/experiment_run_1/model/
